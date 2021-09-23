@@ -22,7 +22,7 @@ class Produk {
   }
 
   public function getInfoProduk() {
-
+    
     $str = "{{$this->judul} | {$this->getLabel()} (RP. {$this->harga})";
 
     return $str;
@@ -39,7 +39,7 @@ class Komik extends Produk {
 
 class Game extends Produk {
   public function getInfoProduk() {
-    $str = "Game : {$this->judul} | {$this->getLabel()} (RP. {$this->harga}) - {$this->waktuMain} Jam.";
+    $str = "Game : {$this->judul} | {$this->getLabel()} (RP. {$this->harga}) ~ {$this->waktuMain} Jam.";
     return $str;
   }
 }
