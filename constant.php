@@ -9,7 +9,7 @@
 // echo UMUR;
 
 // class Coba {
-//   const NAMA = "Aji Fattah";
+//   const NAMA = "Yuni Setyawati";
 // }
 
 // echo "<h1>" . COBA::NAMA . "</h1>";
