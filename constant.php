@@ -24,8 +24,7 @@
 
 // echo coba();
 
-class Coba
-{
+class Coba {
   public $kelas = __CLASS__;
 }
 
